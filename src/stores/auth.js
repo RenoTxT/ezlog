@@ -13,7 +13,6 @@ let unsubscribeFromAuthChanges
 export const useAuthStore = defineStore('auth', {
   state: () => ({
     user: null,
-    // State untuk menandai apakah pengecekan Firebase sudah selesai
     isAuthReady: false,
   }),
 
@@ -58,7 +57,6 @@ export const useAuthStore = defineStore('auth', {
 
     async logout() {
       await signOut(auth)
-      // state akan di-reset oleh onAuthStateChanged
       router.push('/login')
     },
 
@@ -74,7 +72,6 @@ export const useAuthStore = defineStore('auth', {
           } else {
             this.user = null
           }
-          // Set isAuthReady menjadi true setelah pengecekan pertama selesai
           this.isAuthReady = true
           resolve()
         })

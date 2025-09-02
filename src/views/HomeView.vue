@@ -40,7 +40,7 @@ const authStore = useAuthStore()
 const router = useRouter()
 
 const today = new Date()
-const currentMonth = ref(today.getMonth()) // 0-11
+const currentMonth = ref(today.getMonth())
 const currentYear = ref(today.getFullYear())
 const selectedDate = ref(null)
 
@@ -50,24 +50,21 @@ const calendarGrid = computed(() => {
   const year = currentYear.value
   const month = currentMonth.value
 
-  const firstDayOfMonth = new Date(year, month, 1).getDay() // 0 for Sunday, 1 for Monday...
+  const firstDayOfMonth = new Date(year, month, 1).getDay()
   const daysInMonth = new Date(year, month + 1, 0).getDate()
 
   const days = []
 
-  // Days from previous month
   const daysInPrevMonth = new Date(year, month, 0).getDate()
   for (let i = firstDayOfMonth; i > 0; i--) {
     days.push({ date: daysInPrevMonth - i + 1, isCurrentMonth: false })
   }
 
-  // Days for current month
   for (let i = 1; i <= daysInMonth; i++) {
     days.push({ date: i, isCurrentMonth: true })
   }
 
-  // Days for next month
-  const remainingCells = 42 - days.length // 6 weeks * 7 days
+  const remainingCells = 42 - days.length
   for (let i = 1; i <= remainingCells; i++) {
     days.push({ date: i, isCurrentMonth: false })
   }
@@ -97,15 +94,12 @@ const nextMonth = () => {
   }
 }
 
-// --- FUNGSI YANG DIPERBAIKI ---
 const selectDate = (day) => {
   let year = currentYear.value
   let month = currentMonth.value
 
-  // Menangani klik pada tanggal dari bulan sebelumnya atau berikutnya
   if (!day.isCurrentMonth) {
     if (day.date > 20) {
-      // Tanggal dari bulan sebelumnya
       if (month === 0) {
         month = 11
         year--
@@ -113,7 +107,6 @@ const selectDate = (day) => {
         month--
       }
     } else {
-      // Tanggal dari bulan berikutnya
       if (month === 11) {
         month = 0
         year++
@@ -123,13 +116,10 @@ const selectDate = (day) => {
     }
   }
 
-  // Membuat string tanggal secara manual untuk menghindari masalah zona waktu
-  // Bulan ditambah 1 karena 0-indexed, lalu padStart untuk format 'MM'
   const monthString = (month + 1).toString().padStart(2, '0')
   const dateString = day.date.toString().padStart(2, '0')
   const fullDateString = `${year}-${monthString}-${dateString}`
 
-  // Navigasi ke halaman aktivitas dengan tanggal yang benar
   router.push({ name: 'activity', params: { date: fullDateString } })
 }
 

@@ -31,24 +31,18 @@ const router = createRouter({
   routes,
 })
 
-// --- GUARD YANG SUDAH DIPERBAIKI ---
 router.beforeEach(async (to, from, next) => {
   const authStore = useAuthStore()
 
-  // Jika pengecekan Firebase belum selesai, tunggu dulu.
-  // Ini adalah kunci untuk mencegah race condition.
   if (!authStore.isAuthReady) {
     await authStore.listenForAuthStateChanges()
   }
 
   const requiresAuth = to.meta.requiresAuth
 
-  // Setelah yakin status auth sudah siap, baru buat keputusan.
   if (requiresAuth && !authStore.isLoggedIn) {
-    // Jika butuh login tapi tidak login, arahkan ke /login.
     next({ name: 'login' })
   } else {
-    // Jika tidak butuh login, atau sudah login, lanjutkan.
     next()
   }
 })

@@ -26,9 +26,7 @@
     </div>
 
     <div class="logs-list">
-      <!-- 2. Gunakan `isLoading` langsung -->
       <div v-if="isLoading" class="loading">Memuat data...</div>
-      <!-- 3. Gunakan `logs` langsung -->
       <ul v-else-if="logs.length > 0">
         <li v-for="log in logs" :key="log.id" class="log-item">
           <p class="log-text">{{ log.activityText }}</p>
@@ -54,7 +52,6 @@ import { useActivityStore } from '@/stores/activity'
 const route = useRoute()
 const activityStore = useActivityStore()
 
-// Gunakan storeToRefs untuk membuat state menjadi reactive refs
 const { logs, isLoading } = storeToRefs(activityStore)
 
 const date = ref(route.params.date)
@@ -63,7 +60,6 @@ const errorMessage = ref(null)
 const isSubmitting = ref(false)
 const isEnding = ref(false)
 
-// Computed property sekarang bisa menggunakan `logs.value`
 const canEndActivity = computed(() => {
   if (logs.value.length === 0) {
     return false
@@ -128,8 +124,8 @@ const formatTime = (timestamp) => {
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  overflow-y: auto; /* Tambahkan scroll jika konten melebihi */
-  max-height: calc(100vh - 64px - 4rem); /* Sesuaikan tinggi maksimal */
+  overflow-y: auto;
+  max-height: calc(100vh - 64px - 4rem);
 }
 .error-message {
   background-color: #ffebee;
