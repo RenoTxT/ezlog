@@ -1,7 +1,7 @@
 <template>
   <div class="login-container">
     <div class="login-form-wrapper">
-      <h2>Log Book Login</h2>
+      <h2>EZLOG Login</h2>
       <form @submit.prevent="handleLogin">
         <div class="form-group">
           <label for="email">Email</label>
