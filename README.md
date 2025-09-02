@@ -1,1 +1,69 @@
-EZLOG - Log Book Digital Cerdas untuk Mahasiswa & Siswa 👋Lacak progres skripsi, tugas, dan kegiatan harian Anda dengan mudah. Fokus pada pekerjaan, biarkan EZLOG yang mengurus pencatatan waktu.<br><p align="center"><a href="https://www.google.com/search?q=https://ezlog.vercel.app/" target="_blank"><img src="https://www.google.com/search?q=https://img.shields.io/badge/Mulai%2520Gunakan%2520Sekarang-Gratis-brightgreen%3Fstyle%3Dfor-the-badge%26logo%3Dvue.js" alt="[Coba EZLOG Gratis]"></a></p><p align="center"><strong>Akses Aplikasi Live:</strong> <a href="https://www.google.com/search?q=https://ezlog.vercel.app/"><strong>https://www.google.com/search?q=https://ezlog.vercel.app/</strong></a></p><br><p align="center"><img src="https://www.google.com/search?q=https://i.ibb.co/L5BKn2C/ezlog-screenshot.png" alt="[Tangkapan Layar Aplikasi EZLOG]"></p>🤔 Apa itu EZLOG?Apakah Anda sering merasa waktu terbuang percuma saat mengerjakan skripsi? Atau bingung berapa lama waktu yang dihabiskan untuk setiap tugas? EZLOG hadir untuk menyelesaikan masalah itu.Ini adalah aplikasi log book modern yang dirancang khusus untuk mencatat aktivitas secara otomatis. Cukup tulis apa yang Anda kerjakan, dan saat Anda beralih ke tugas berikutnya, durasi tugas sebelumnya akan tercatat secara otomatis. Simpel, cepat, dan efektif.🎯 Sempurna Untuk Kebutuhan Akademis AndaEZLOG adalah teman terbaik bagi mahasiswa dan siswa untuk:📝 Pengerjaan Skripsi & Tugas Akhir: Lacak berapa jam yang Anda habiskan untuk riset, menulis bab, atau revisi.📚 Sesi Belajar: Ketahui berapa lama Anda fokus pada setiap mata pelajaran.👥 Kerja Kelompok: Miliki catatan yang jelas tentang kontribusi dan durasi kerja setiap anggota.💼 Magang & PKL: Buat laporan harian untuk perusahaan dengan mudah dan akurat.🎨 Proyek Pribadi: Kelola waktu Anda saat mengerjakan proyek sampingan atau hobi.✨ Fitur Unggulan✅ Antarmuka Kalender: Visual dan intuitif, memudahkan Anda melihat dan memilih hari untuk mencatat.⏱️ Durasi Otomatis: Sistem cerdas yang mengakhiri waktu aktivitas sebelumnya saat Anda memulai yang baru. Tidak perlu stopwatch!⚡ Sinkronisasi Real-Time: Data Anda tersimpan secara instan dan aman di cloud.🔒 Privasi Terjamin: Setiap pengguna memiliki akun sendiri, memastikan catatan Anda bersifat pribadi.💯 Sepenuhnya Gratis: Gunakan semua fitur EZLOG tanpa biaya apa pun.🚀 Cara Memulai (Kurang dari 1 Menit!)Buat Akun: Kunjungi ezlog.vercel.app/register dan daftarkan diri Anda.Pilih Tanggal: Klik tanggal di kalender untuk memulai.Mulai Mencatat: Tulis aktivitas pertama Anda dan klik "Tambah Log". Selesai!🛠️ Dibangun DenganProyek ini menggunakan tumpukan teknologi modern untuk memberikan pengalaman terbaik:Frontend: Vue.js 3, Vite, Vue Router, PiniaBackend & Database: Firebase Authentication & Cloud FirestoreDeployment: Vercel✉️ Punya Masukan atau Ide?EZLOG dikembangkan untuk membantu Anda. Jika Anda memiliki saran fitur, menemukan bug, atau ingin berdiskusi, jangan ragu untuk:Membuka Isu Baru di Halaman Isu GitHub.bMenghubungi Developer: RenoTxTSemoga EZLOG bermanfaat untuk perjalanan
+# EZLOG - Log Book Digital Cerdas untuk Mahasiswa & Siswa 👋
+
+Lacak progres skripsi, tugas, dan kegiatan harian Anda dengan mudah.  
+Fokus pada pekerjaan, biarkan **EZLOG** yang mengurus pencatatan waktu.
+
+🔗 **Akses Aplikasi Live:** [https://ezlog.vercel.app/](https://ezlog.vercel.app/)
+
+---
+
+## 🤔 Apa itu EZLOG?
+
+Apakah Anda sering merasa waktu terbuang percuma saat mengerjakan skripsi?  
+Atau bingung berapa lama waktu yang dihabiskan untuk setiap tugas?  
+
+**EZLOG** hadir untuk menyelesaikan masalah itu.  
+
+Aplikasi ini adalah **log book modern** yang dirancang khusus untuk mencatat aktivitas secara otomatis.  
+Cukup tulis apa yang Anda kerjakan, dan saat Anda beralih ke tugas berikutnya, **durasi tugas sebelumnya akan tercatat secara otomatis**.  
+➡️ Simpel, cepat, dan efektif.
+
+---
+
+## 🎯 Sempurna Untuk Kebutuhan Akademis Anda
+
+- 📝 **Pengerjaan Skripsi & Tugas Akhir**: Lacak jam untuk riset, menulis, atau revisi.
+- 📚 **Sesi Belajar**: Ketahui berapa lama Anda fokus pada setiap mata pelajaran.
+- 👥 **Kerja Kelompok**: Catat kontribusi & durasi kerja tiap anggota.
+- 💼 **Magang & PKL**: Buat laporan harian dengan mudah dan akurat.
+- 🎨 **Proyek Pribadi**: Kelola waktu proyek sampingan atau hobi Anda.
+
+---
+
+## ✨ Fitur Unggulan
+
+- ✅ **Antarmuka Kalender**: Visual, intuitif, dan mudah digunakan.
+- ⏱️ **Durasi Otomatis**: Tidak perlu stopwatch, sistem mencatat otomatis.
+- ⚡ **Sinkronisasi Real-Time**: Data langsung tersimpan aman di cloud.
+- 🔒 **Privasi Terjamin**: Setiap akun terpisah & pribadi.
+- 💯 **Sepenuhnya Gratis**: Semua fitur tersedia tanpa biaya.
+
+---
+
+## 🚀 Cara Memulai (Kurang dari 1 Menit!)
+
+1. **Buat Akun** → [Daftar di sini](https://ezlog.vercel.app/register)  
+2. **Pilih Tanggal** → Klik tanggal di kalender untuk memulai.  
+3. **Mulai Mencatat** → Tulis aktivitas pertama Anda, klik **Tambah Log**, selesai! 🎉  
+
+---
+
+## 🛠️ Dibangun Dengan
+
+- **Frontend**: Vue.js 3, Vite, Vue Router, Pinia  
+- **Backend & Database**: Firebase Authentication & Cloud Firestore  
+- **Deployment**: Vercel  
+
+---
+
+## ✉️ Punya Masukan atau Ide?
+
+EZLOG dikembangkan untuk membantu Anda.  
+
+Jika punya saran fitur, menemukan bug, atau ingin berdiskusi:  
+- 💬 Buat **issue** di repository ini  
+- 📩 Atau hubungi langsung developer  
+
+---
+
+⭐ Jangan lupa beri **star** jika Anda merasa proyek ini bermanfaat!
