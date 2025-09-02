@@ -3,6 +3,8 @@ import { createPinia } from 'pinia'
 import App from './App.vue'
 import router from './router'
 import { useAuthStore } from './stores/auth'
+// 1. Impor fungsi inject dari Vercel Analytics
+import { inject } from '@vercel/analytics'
 
 // Fungsi asinkron untuk menginisialisasi aplikasi
 async function initializeApp() {
@@ -21,6 +23,9 @@ async function initializeApp() {
   app.use(router)
   app.mount('#app')
 }
+
+// 2. Panggil fungsi inject untuk mengaktifkan analytics
+inject()
 
 // Jalankan fungsi inisialisasi
 initializeApp()
