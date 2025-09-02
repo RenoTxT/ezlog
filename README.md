@@ -1,54 +1,54 @@
-# EZLOG - Log Book Digital Cerdas untuk Mahasiswa & Siswa 👋
+# EZLOG - Smart Digital Log Book for Students 👋
 
-Lacak progres skripsi, tugas, dan kegiatan harian Anda dengan mudah.  
-Fokus pada pekerjaan, biarkan **EZLOG** yang mengurus pencatatan waktu.
+Track your thesis progress, assignments, and daily activities with ease.  
+Focus on your work, let **EZLOG** handle the time logging.
 
-🔗 **Akses Aplikasi Live:** [https://ezlog.vercel.app/](https://ezlog.vercel.app/)
-
----
-
-## 🤔 Apa itu EZLOG?
-
-Apakah Anda sering merasa waktu terbuang percuma saat mengerjakan skripsi?  
-Atau bingung berapa lama waktu yang dihabiskan untuk setiap tugas?  
-
-**EZLOG** hadir untuk menyelesaikan masalah itu.  
-
-Aplikasi ini adalah **log book modern** yang dirancang khusus untuk mencatat aktivitas secara otomatis.  
-Cukup tulis apa yang Anda kerjakan, dan saat Anda beralih ke tugas berikutnya, **durasi tugas sebelumnya akan tercatat secara otomatis**.  
-➡️ Simpel, cepat, dan efektif.
+🔗 **Live App:** [https://ezlog.vercel.app/](https://ezlog.vercel.app/)
 
 ---
 
-## 🎯 Sempurna Untuk Kebutuhan Akademis Anda
+## 🤔 What is EZLOG?
 
-- 📝 **Pengerjaan Skripsi & Tugas Akhir**: Lacak jam untuk riset, menulis, atau revisi.
-- 📚 **Sesi Belajar**: Ketahui berapa lama Anda fokus pada setiap mata pelajaran.
-- 👥 **Kerja Kelompok**: Catat kontribusi & durasi kerja tiap anggota.
-- 💼 **Magang & PKL**: Buat laporan harian dengan mudah dan akurat.
-- 🎨 **Proyek Pribadi**: Kelola waktu proyek sampingan atau hobi Anda.
+Do you often feel like time is wasted while working on your thesis?  
+Or confused about how many hours you’ve spent on each task?  
 
----
+**EZLOG** is here to solve that problem.  
 
-## ✨ Fitur Unggulan
-
-- ✅ **Antarmuka Kalender**: Visual, intuitif, dan mudah digunakan.
-- ⏱️ **Durasi Otomatis**: Tidak perlu stopwatch, sistem mencatat otomatis.
-- ⚡ **Sinkronisasi Real-Time**: Data langsung tersimpan aman di cloud.
-- 🔒 **Privasi Terjamin**: Setiap akun terpisah & pribadi.
-- 💯 **Sepenuhnya Gratis**: Semua fitur tersedia tanpa biaya.
+It’s a **modern log book application** designed to record your activities automatically.  
+Just write what you’re working on, and when you switch tasks, **the duration of the previous task is automatically logged**.  
+➡️ Simple, fast, and effective.
 
 ---
 
-## 🚀 Cara Memulai (Kurang dari 1 Menit!)
+## 🎯 Perfect for Academic Needs
 
-1. **Buat Akun** → [Daftar di sini](https://ezlog.vercel.app/register)  
-2. **Pilih Tanggal** → Klik tanggal di kalender untuk memulai.  
-3. **Mulai Mencatat** → Tulis aktivitas pertama Anda, klik **Tambah Log**, selesai! 🎉  
+- 📝 **Thesis & Final Projects**: Track hours spent on research, writing, or revisions.  
+- 📚 **Study Sessions**: See how long you focus on each subject.  
+- 👥 **Group Work**: Keep clear records of each member’s contribution and time.  
+- 💼 **Internships & Field Work**: Generate daily reports easily and accurately.  
+- 🎨 **Personal Projects**: Manage your time on side projects or hobbies.  
 
 ---
 
-## 🛠️ Dibangun Dengan
+## ✨ Key Features
+
+- ✅ **Calendar Interface**: Visual, intuitive, and user-friendly.  
+- ⏱️ **Automatic Duration Tracking**: No stopwatch needed, time is logged automatically.  
+- ⚡ **Real-Time Sync**: Your data is securely stored in the cloud instantly.  
+- 🔒 **Privacy Guaranteed**: Each account is private and secure.  
+- 💯 **Completely Free**: Enjoy all features with no cost.  
+
+---
+
+## 🚀 Getting Started (Less Than 1 Minute!)
+
+1. **Create an Account** → [Register here](https://ezlog.vercel.app/register)  
+2. **Pick a Date** → Click a date in the calendar to begin.  
+3. **Start Logging** → Write your first activity, click **Add Log**, and you’re done! 🎉  
+
+---
+
+## 🛠️ Built With
 
 - **Frontend**: Vue.js 3, Vite, Vue Router, Pinia  
 - **Backend & Database**: Firebase Authentication & Cloud Firestore  
@@ -56,14 +56,14 @@ Cukup tulis apa yang Anda kerjakan, dan saat Anda beralih ke tugas berikutnya, *
 
 ---
 
-## ✉️ Punya Masukan atau Ide?
+## ✉️ Feedback or Ideas?
 
-EZLOG dikembangkan untuk membantu Anda.  
+EZLOG is built to help you.  
 
-Jika punya saran fitur, menemukan bug, atau ingin berdiskusi:  
-- 💬 Buat **issue** di repository ini  
-- 📩 Atau hubungi langsung developer  
+If you have feature suggestions, find a bug, or want to discuss:  
+- 💬 Open an **issue** in this repository  
+- 📩 Or contact the developer directly  
 
 ---
 
-⭐ Jangan lupa beri **star** jika Anda merasa proyek ini bermanfaat!
+⭐ Don’t forget to give this project a **star** if you find it helpful!
